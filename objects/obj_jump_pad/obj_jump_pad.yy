@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
-  "eventList":[],
+  "%Name":"obj_jump_pad",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_par","path":"objects/obj_player_par/obj_player_par.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_jump_pad",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Level/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_soild",
-    "path":"objects/obj_soild/obj_soild.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_jump_pad",
+    "path":"sprites/spr_jump_pad/spr_jump_pad.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -16,9 +16,9 @@ var move = key_right - key_left
 
 hsp = wlk_spd * move 
 
-if (place_meeting(x+hsp,y,obj_wall)) or (place_meeting(x+hsp,y,otherplayer))
+if place_meeting(x+hsp,y,obj_soild)
 {
-	 while ((!place_meeting(x+sign(hsp),y,obj_wall)) and (!place_meeting(x+sign(hsp),y,otherplayer)))
+	 while !place_meeting(x+sign(hsp),y,obj_soild)
 	 {
 		  	  x += sign(hsp);
 	 }
@@ -29,9 +29,9 @@ x += hsp
 
 vsp += grv
 
-if (place_meeting(x,y+vsp,obj_wall)) or (place_meeting(x,y+vsp,otherplayer))
+if place_meeting(x,y+vsp,obj_soild)
 {
-	 while ((!place_meeting(x,y+sign(vsp),obj_wall)) and (!place_meeting(x,y+sign(vsp),otherplayer)))
+	 while !place_meeting(x,y+sign(vsp),obj_soild)
 	 {
 		  	  y += sign(vsp);
 	 }
@@ -40,7 +40,10 @@ if (place_meeting(x,y+vsp,obj_wall)) or (place_meeting(x,y+vsp,otherplayer))
 
 
 
-if (key_jump) and (place_meeting(x,y+1,obj_wall) or (place_meeting(x,y+1,otherplayer))) and !(place_meeting(x,y-jump,obj_wall) or (place_meeting(x,y-jump,otherplayer))) vsp = -jump
+if (key_jump) and place_meeting(x,y+1,obj_soild) and !place_meeting(x,y-jump,obj_soild)
+{
+	vsp = -jump
+}
 
 
 y += vsp

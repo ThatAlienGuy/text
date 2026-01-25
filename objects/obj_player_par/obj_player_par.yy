@@ -12,7 +12,10 @@
     "name":"Objects",
     "path":"folders/Player/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_soild",
+    "path":"objects/obj_soild/obj_soild.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

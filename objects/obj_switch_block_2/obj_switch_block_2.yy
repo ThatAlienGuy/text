@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
-  "eventList":[],
+  "%Name":"obj_switch_block_2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_switch_block_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Level/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_soild",
-    "path":"objects/obj_soild/obj_soild.yy",
+    "name":"obj_switch_block_par",
+    "path":"objects/obj_switch_block_par/obj_switch_block_par.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_switch_block_2",
+    "path":"sprites/spr_switch_block_2/spr_switch_block_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

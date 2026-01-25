@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_soild",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_soild",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Level/Objects.yy",
+    "name":"BLANK GAME_1",
+    "path":"BLANK GAME_1.yyp",
   },
-  "parentObjectId":{
-    "name":"obj_soild",
-    "path":"objects/obj_soild/obj_soild.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
